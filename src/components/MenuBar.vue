@@ -23,17 +23,7 @@ onMounted(()=> {
   console.log(router.getRoutes())
 })
 
-// export default {
-//   name: 'HelloWorld',
-//   props: {
-//     msg: String
-//   }
-// }
-
-
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
 .menu-bar
   margin-left: 10px
@@ -50,18 +40,21 @@ onMounted(()=> {
     padding-bottom: 30px
     span
       position: absolute
-      display: none
+      opacity: 0
+      display: inline-block
       vertical-align: bottom
       font-weight: 700
-      transition: ease-out .4s
+      color: transparent
+      transition: opacity 0.3s ease 0s, padding 0.3s ease 0s
     div
       background: black
       border-radius: 30px
-      transition: all .5s ease-in 0s
+      transition: all .3s ease-in 0s
     &:hover
       span
         position: relative
-        display: block
+        opacity: 1
+        color: white
         text-decoration: none
       div
         padding-right: 20px
