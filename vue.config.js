@@ -32,6 +32,7 @@ module.exports = defineConfig({
     liveReload: liveReload
     // #endregion no live-reload start
   },
+
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.
@@ -47,5 +48,11 @@ module.exports = defineConfig({
     //   __filename: true
     // },
     // plugins: ['Notify', 'Loading']
+  },
+
+  pluginOptions: {
+    vuetify: {
+			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+		}
   }
 })
