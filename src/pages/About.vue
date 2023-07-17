@@ -1,5 +1,5 @@
 <template>
-  <div class="about-container">
+  <div class="about-container h-100 w-100">
    about
   </div>
 </template>
@@ -14,5 +14,7 @@ onMounted(()=> {
 
 </script>
 <style lang="sass" scoped>
-
+.about-container
+  background-color: #515151
+  opacity: 0.7
 </style>

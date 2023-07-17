@@ -22,6 +22,7 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     // 'semi-spacing': [2, { before: false, after: true }],
     // 'block-spacing': [2, 'always'],
-    // 'comma-spacing': [2, { before: false, after: true }]
+    // 'comma-spacing': [2, { before: false, after: true }],
+    "vue/no-mutating-props": "off"
   }
 }

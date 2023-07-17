@@ -10,14 +10,12 @@
       </router-link>
     </li>
    </ul>
-   
   </div>
 </template>
 
 <script setup>
 import  router from '/src/router'
 import { onMounted } from 'vue'
-
 
 onMounted(()=> {
   console.log(router.getRoutes())
