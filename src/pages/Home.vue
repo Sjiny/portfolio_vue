@@ -30,7 +30,7 @@ onMounted(()=> {
   background-color: #515151
   &:before
     content:""
-    background-image: url("../assets/developer_image.jpeg")
+    background-image: url("../assets/images/developer_image.jpeg")
     background-repeat: no-repeat
     background-size: cover
     position: absolute

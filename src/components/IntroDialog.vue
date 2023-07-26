@@ -13,7 +13,7 @@
         <v-card-text>
           <div class="profile d-flex justify-center align-center">
             <div class="memoji">
-              <v-img src="@/assets/profile/idea_memoji.svg" />
+              <v-img src="@/assets/images/profile/idea_memoji.svg" />
               <div class="intro-box">Web Developer</div>
             </div>
             <div class="info d-flex">
@@ -28,7 +28,7 @@
         <v-card-text class="intro">
           <span>Frontend</span>를 중심으로 다양한 경험과 기술을 쌓고 싶은 <span>주니어 개발자</span>입니다. <br />
           web service의 전체적인 구조를 이해하고 있습니다. <br />
-          Backend 뿐만 아니라 Docker, sql 등 분야를 가리지 않고
+          Backend 뿐만 아니라 Docker, SQL 등 분야를 가리지 않고
           적극적으로 개발자로서의 성장에 임하고 있습니다. <br /> <span>새로운 기술</span>을 배우는 것에 관심이 있으며 
           맡은 일에 자부심을 갖고 <span>동료들과 협업</span>하며 성장하고 싶습니다.
         </v-card-text>
@@ -93,6 +93,8 @@ const props = defineProps({
         background: #da0051e6
 .intro
   font-size: 1.2rem
+  border: solid 1px gray
+  border-radius: 5px
   span
     font-size: 1.3rem
     font-weight: 700
